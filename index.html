@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robin Hood - Web Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="home">
+        <nav>
+            <div class="logo">Robin Hood</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="container hero-content-wrapper">
+            <div class="hero-image">
+                <img src="assets/ME.svg" alt="Robin Hood - Profile Picture">
+                <div class="hero-image-border-effect"></div> </div>
+            <div class="hero-text-content">
+                <h1>Hi, I'm <span class="highlight"><span id="typed-name"></span><span class="cursor"></span></span></h1>
+                <p class="tagline">A passionate Web Developer creating engaging, user-friendly, and performant web experiences.</p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                <ul class="hero-key-skills">
+                    <li><span class="icon">✨</span> Modern UI/UX</li>
+                    <li><span class="icon">💻</span> Responsive Design</li>
+                    <li><span class="icon">💡</span> Problem Solver</li>
+                    <li><span class="icon">⚡</span> Performance Optimization</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                Welcome to my corner of the internet! I'm a dedicated web developer with a strong foundation in front-end and a growing interest in back-end technologies.
+                I love bringing ideas to life through code and am constantly learning new technologies to improve my craft.
+                My goal is to create engaging and user-friendly experiences that solve real-world problems.
+            </p>
+            <p>
+                When I'm not coding, you can find me playing Badminton, exploring Hope Woodlands, or contributing to open-source projects.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">HTML5</div>
+                <div class="skill-item">CSS3</div>
+                <div class="skill-item">JavaScript</div>
+                <div class="skill-item">React</div>
+                <div class="skill-item">Node.js</div>
+                <div class="skill-item">Python</div>
+                <div class="skill-item">Git/GitHub</div>
+                <div class="skill-item">Django</div>
+				<div class="skill-item">WordPress</div>
+				<div class="skill-item">Java</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="project-item">
+                    <img src="assets/placeholder.svg" alt="Project 1">
+                    <h3>Forest Trails Mapper</h3>
+                    <p>An interactive map application built with React, showing trails and points of interest in a given area.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank" class="btn-small btn-primary">Live Demo</a>
+                        <a href="#" target="_blank" class="btn-small btn-secondary">GitHub Repo</a>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <img src="assets/placeholder.svg" alt="Project 2">
+                    <h3>Badminton Score Tracker</h3>
+                    <p>A mobile-first web application for tracking and visualizing Badminton scores over time, using Node.js backend.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank" class="btn-small btn-primary">Live Demo</a>
+                        <a href="#" target="_blank" class="btn-small btn-secondary">GitHub Repo</a>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <img src="assets/placeholder.svg" alt="Project 3">
+                    <h3>Medieval Marketplace UI</h3>
+                    <p>A vibrant e-commerce UI design and prototype, showcasing modern CSS techniques and smooth animations.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank" class="btn-small btn-primary">Live Demo</a>
+                        <a href="#" target="_blank" class="btn-small btn-secondary">GitHub Repo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>Have a project in mind or just want to say hello? Feel free to reach out!</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="6" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:robin.hood@example.com">robin.hood@example.com</a></p>
+                <p>LinkedIn: <a href="https://linkedin.com/in/srirameshnaidu" target="_blank">Robin Hood's LinkedIn</a></p>
+                <p>GitHub: <a href="https://github.com/SriRameshNaiduKusu" target="_blank">Robin Hood's GitHub</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Robin Hood. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/srirameshnaidu" target="_blank">LinkedIn</a>
+                <a href="https://github.com/SriRameshNaiduKusu" target="_blank">GitHub</a>
+                </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Dynamically set the current year in the footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
